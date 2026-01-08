@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+    <title>Emoji Crush - 我的自製消消樂</title>
+    
+    <!-- Open Graph Tags -->
+    <meta property="og:title" content="Emoji Crush - 我的自製消消樂" />
+    <meta property="og:description" content="快來玩我用 AI 寫的超舒壓消消樂遊戲！" />
+    <meta property="og:image" content="https://picsum.photos/1200/630" />
+    <meta property="og:type" content="website" />
+    
+    <!-- Tailwind CSS -->
+    <script src="https://cdn.tailwindcss.com"></script>
+    
+    <!-- Prevent text selection during rapid clicking -->
+    <style>
+      body {
+        user-select: none;
+        -webkit-user-select: none;
+        overflow: hidden; /* Prevent pull-to-refresh on mobile */
+      }
+    </style>
+  <script type="importmap">
+{
+  "imports": {
+    "react-dom/": "https://esm.sh/react-dom@^19.2.3/",
+    "lucide-react": "https://esm.sh/lucide-react@^0.562.0",
+    "react/": "https://esm.sh/react@^19.2.3/",
+    "react": "https://esm.sh/react@^19.2.3",
+    "framer-motion": "https://esm.sh/framer-motion@^12.24.10",
+    "uuid": "https://esm.sh/uuid@^13.0.0"
+  }
+}
+</script>
+</head>
+  <body class="bg-pink-50 text-slate-800 antialiased touch-none">
+    <div id="root"></div>
+  </body>
+</html>
